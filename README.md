@@ -1,19 +1,20 @@
-![GitHub repo size](https://img.shields.io/github/repo-size/Domisnnet/Drakonik-Nexus-Vue.Js?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/Domisnnet/Drakonik-Nexus-Vue.Js?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/Domisnnet/Drakonik-Nexus-Vue.Js?style=for-the-badge)
+![Repo Size](https://img.shields.io/github/repo-size/Domisnnet/Drakonik-Nexus-Vue.js?style=flat&label=REPO%20SIZE&labelColor=2d333b&color=0969da)
+![Stars](https://img.shields.io/github/stars/DomisnnetDrakonik-Nexus-Vue.js?style=flat&label=STARS&labelColor=2d333b&color=0969da)
+![Last Commit](https://img.shields.io/github/last-commit/Domisnnet/Drakonik-Nexus-Vue.js?style=flat&label=LAST%20COMMIT&labelColor=2d333b&color=2ea44f)
+![Version](https://img.shields.io/github/package-json/v/Domisnnet/Drakonik-Nexus-Vue.js?style=flat&label=VERSION&labelColor=2d333b&color=4FC08D&logo=vue.js&logoColor=fff)
 
 <h2 id="sobre-o-projeto">1. 🎮 Sobre o Projeto</h2>
 
 ![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)
 ![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS-blue)
-[![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/GitHub-Stats/edit/main/LICENSE)
+[![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.js/edit/main/LICENSE)
 
 ![Drakonik-Nexus](src/assets/images/drakonik-nexus.png)
 
-Um jogo de cartas da memória inspirado em **Yu-Gi-Oh!**, desenvolvido com **Vue.js** e **Vite** — diversão e código em um só duelo!<br>
+Um jogo de cartas da memória inspirado em **Yu-Gi-Oh!**, desenvolvido com `Vue.js` e `Vite` — diversão e código em um só duelo!<br>
 O **Drakonik-Nexus-Vue** é um jogo da memória com temática inspirada no universo de Yu-Gi-Oh! O objetivo é simples: encontrar todos os pares de cartas no menor tempo possível. 
 
-> 💡 Uma combinação entre **frontend moderno** e **nostalgia dos duelos de cartas**.
+> 💡 Uma combinação entre **Front-End Moderno** e **nostalgia dos duelos de cartas**.
 
 ---
 
@@ -75,18 +76,19 @@ Adicione este projeto ao seu "deck" de desenvolvedor! Siga a jornada abaixo para
 
 | Fase | Ação | Link / Comando |
 | :---: | :--- | :--- |
-| **01** | **Prepare o Terreno** | [![Fork](https://img.shields.io/badge/-Fazer%20Fork-blue?style=flat-square&logo=github)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/fork) |
+| **01** | **Prepare o Terreno** | [![Fork](https://img.shields.io/badge/-Fazer%20Fork-blue?style=flat-square&logo=github)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.js/fork) |
 | **02** | **Crie uma Branch** | `git checkout -b feature/NovaMelhoria` |
 | **03** | **Guarde as Mudanças** | `git commit -m 'feat: Adiciona nova funcionalidade'` |
 | **04** | **Envie o Código** | `git push origin feature/NovaMelhoria` |
-| **05** | **Desafio Final** | [![Abrir PR](https://img.shields.io/badge/-Abrir%20PR-green?style=flat-square&logo=git)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/compare) |
+| **05** | **Desafio Final** | [![Abrir PR](https://img.shields.io/badge/-Abrir%20PR-green?style=flat-square&logo=git)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.js/compare) |
 
 
-### 🐛 Encontrou um problema?
+<h3>🐛 Encontrou um problema ❓</h3>
 Se algo não estiver funcionando como esperado, não hesite em abrir um chamado:
 
-[![Issues Abertas](https://img.shields.io/github/issues/Domisnnet/GitHub-Stats?style=flat-square&color=red&logo=github)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/issues)
-[![Report Bug](https://img.shields.io/badge/Reportar-Erro-critical?style=flat-square&logo=github)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/issues/new)
+[![Issues Abertas](https://img.shields.io/github/issues/Domisnnet/GitHub-Stats?style=flat-square&color=red&logo=github)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.js/issues)
+[![Report Bug](https://img.shields.io/badge/Reportar-Erro-critical?style=flat-square&logo=github)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.js/issues/new)
+
 
 ---
 
@@ -94,10 +96,10 @@ Se algo não estiver funcionando como esperado, não hesite em abrir um chamado:
 
 ```bash
 # Clonar o repositório
-git clone [https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js.git](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js.git)
+git clone [https://github.com/Domisnnet/Drakonik-Nexus-Vue.js.git](https://github.com/Domisnnet/Drakonik-Nexus-Vue.js.git)
 
 # Acessar a pasta
-cd Drakonik-Nexus-Vue.Js
+cd Drakonik-Nexus-Vue.js
 ```
 
 ---
@@ -129,7 +131,7 @@ cd Drakonik-Nexus-Vue.Js
 
 **Para contribuir, acesse:**
 
-[![Abrir Pull Request](https://img.shields.io/badge/Contribuir-Abrir%20PR-green?style=for-the-badge&logo=github)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/compare)
+[![Abrir Pull Request](https://img.shields.io/badge/Contribuir-Abrir%20PR-green?style=for-the-badge&logo=github)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.js/compare)
 
 </details>
 
@@ -146,7 +148,7 @@ cd Drakonik-Nexus-Vue.Js
 Gostou do jogo? Explore o código ou faça sugestões:
 
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=fff)
-[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FDrakonik--Nexus--Vue.Js-4FC08D?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js)
+[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FDrakonik--Nexus--Vue.js-4FC08D?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.js)
 
 ---
 
@@ -158,10 +160,21 @@ Gostou do jogo? Explore o código ou faça sugestões:
 
 <h2 id="licenca">11. 📄 Licença</h2>
 
-Este projeto é *open source* e está licenciado sob a [![Licença MIT](https://img.shields.io/github/license/Domisnnet/Drakonik-Nexus-Vue.Js)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/edit/main/LICENSE)
+Este projeto é *open source* e está licenciado sob a &nbsp;[![Licença MIT](https://img.shields.io/github/license/Domisnnet/Drakonik-Nexus-Vue.js)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.js/edit/main/LICENSE)
 
 ---
 
 <h2 id="perfil-do-github">12. 👨‍💻 Perfil do GitHub</h2>
 
-<a href="https://github.com/Domisnnet"> <img src="src/assets/images/DomisDev.png" width="90" alt="Acessar perfil GitHub"> </a>
+<a href="https://github.com/Domisnnet"> 
+  <img src="src/assets/images/DomisDev.png" width="90" alt="Acessar perfil GitHub"> 
+</a>
+
+&nbsp;
+<p align="center">
+  <a href="#sobre-o-projeto">
+    <img src=
+      "https://img.shields.io/badge/⬆️%20VOLTAR%20AO%20TOPO-26FF00?style=flat&labelColor=111827&color=0A0F1C" alt="Voltar ao topo" style="height: 30px;"
+    >
+  </a>
+</p>
