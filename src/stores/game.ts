@@ -102,7 +102,6 @@ export const useGameStore = defineStore('game', {
     isTimeUp: false,
     timerId: null,
   }),
-
   actions: {
     initializeGame() {
       this.stopTimer();
@@ -114,9 +113,7 @@ export const useGameStore = defineStore('game', {
           isMatched: false,
         }),
       );
-
       const duplicatedCards = [...this.uniqueCards, ...this.uniqueCards];
-
       const shuffledCards = duplicatedCards
         .map(
           (card, index): Card => ({
@@ -127,7 +124,6 @@ export const useGameStore = defineStore('game', {
           }),
         )
         .sort(() => Math.random() - 0.5);
-
       this.cards = shuffledCards;
       this.flippedCards = [];
       this.score = 0;
@@ -136,56 +132,38 @@ export const useGameStore = defineStore('game', {
       this.remainingTime = 120;
       this.isTimeUp = false;
     },
-
     flipCard(cardId: number) {
       if (this.flippedCards.length >= 2 || this.isTimeUp) return;
-
-      if (!this.isTimerRunning && !this.isGameOver) {
-        this.startTimer();
-      }
-
+      if (!this.isTimerRunning && !this.isGameOver) { this.startTimer(); }
       const card = this.cards.find(c => c.id === cardId);
       if (card && !card.isFlipped && !card.isMatched) {
         card.isFlipped = true;
         this.flippedCards.push(card);
       }
-
       if (this.flippedCards.length === 2) {
         this.moves++;
-        setTimeout(() => {
-          this.checkForMatch();
-        }, 1000);
+        setTimeout(() => { this.checkForMatch(); }, 1000);
       }
     },
-
     checkForMatch() {
       const [card1, card2] = this.flippedCards;
-
       if (!card1 || !card2) return;
-
       if (card1.pairValue === card2.pairValue) {
         card1.isMatched = true;
         card2.isMatched = true;
         this.score += 10;
-      } else {
-        card1.isFlipped = false;
-        card2.isFlipped = false;
-      }
-
+      } else { card1.isFlipped = false; card2.isFlipped = false; }
       this.flippedCards = [];
       this.checkGameOver();
     },
-
     checkGameOver() {
       if (this.cards.length > 0 && this.cards.every(card => card.isMatched)) {
         this.isGameOver = true;
         this.stopTimer();
       }
     },
-
     startTimer() {
       if (this.isTimerRunning) return;
-
       this.isTimerRunning = true;
       this.timerId = setInterval(() => {
         if (this.remainingTime > 0) {
@@ -197,12 +175,8 @@ export const useGameStore = defineStore('game', {
         }
       }, 1000);
     },
-
     stopTimer() {
-      if (this.timerId) {
-        clearInterval(this.timerId);
-        this.timerId = null;
-      }
+      if (this.timerId) { clearInterval(this.timerId); this.timerId = null; }
       this.isTimerRunning = false;
     },
   },

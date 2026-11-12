@@ -1,36 +1,12 @@
-/* Importa as diretivas base do Tailwind CSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Configurações globais e de corpo da página */
-body {
-  @apply bg-slate-900 text-white;
-  font-family: 'Roboto', sans-serif; /* Exemplo de uma fonte mais moderna */
-}
+body { @apply bg-slate-900 text-white; font-family: 'Roboto', sans-serif; }
 
-html,
-body,
-#app {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
+html, body, #app { height: 100%; margin: 0; padding: 0; }
 
-/* Estilização da barra de rolagem para uma aparência mais integrada (Opcional) */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: #1e293b; /* Cor de fundo da barra de rolagem (slate-800) */
-}
-
-::-webkit-scrollbar-thumb {
-  background: #38bdf8; /* Cor do polegar da barra de rolagem (sky-400) */
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #0ea5e9; /* Cor do polegar ao passar o mouse (sky-500) */
-}
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #1e293b;  }
+::-webkit-scrollbar-thumb { background: #38bdf8;  border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #0ea5e9; }
