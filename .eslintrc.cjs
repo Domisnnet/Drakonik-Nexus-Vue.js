@@ -20,14 +20,9 @@ module.exports = {
   ],
   plugins: ['vue', '@typescript-eslint'],
   rules: {
-    // Regras Vue
     'vue/multi-word-component-names': 'off',
-
-    // TypeScript
     '@typescript-eslint/no-explicit-any': 'off',
-
-    // Estilo geral
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': ['warn'],
-  },
+  }
 };
