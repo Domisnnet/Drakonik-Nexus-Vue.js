@@ -6,7 +6,7 @@
 <h2 id="sobre-o-projeto">1. 🎮 Sobre o Projeto</h2>
 
 ![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)
-![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS%20VUE-blue)
+![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS%20%7C%20VUE-blue)
 [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.js/edit/main/LICENSE)
 
 ![Drakonik-Nexus](src/assets/images/drakonik-nexus.png)
