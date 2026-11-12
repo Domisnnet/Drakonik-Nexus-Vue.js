@@ -6,9 +6,9 @@
 <h2 id="sobre-o-projeto">1. 🎮 Sobre o Projeto</h2>
 
 ![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)
-![Tailwind V4](https://img.shields.io/badge/Tailwind-v4-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-42b883?style=flat-square&logo=vue.js&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646cff?style=flat-square&logo=vite&logoColor=white)
+![Tailwind V4](https://img.shields.io/badge/Tailwind-v4-38BDF8?style=flat&label=tailwindcss&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-42b883?style=flat&label=vue.js&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&label=vite&logoColor=white)
 [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.js/edit/main/LICENSE)
 
 ![Drakonik-Nexus](src/assets/images/drakonik-nexus.png)
