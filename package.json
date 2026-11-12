@@ -18,13 +18,8 @@
     "ci": "npm run test:unit && npm run build"
   },
   "lint-staged": {
-    "**/*.{ts,vue,js}": [
-      "eslint --fix",
-      "prettier --write"
-    ],
-    "**/*.{css,md}": [
-      "prettier --write"
-    ]
+    "**/*.{ts,vue,js}": [ "eslint --fix", "prettier --write" ],
+    "**/*.{css,md}": [ "prettier --write" ]
   },
   "devDependencies": {
     "@types/node": "^18.0.0",
