@@ -23,7 +23,7 @@
 
 <script setup lang="ts">
 import { onMounted } from 'vue';
-import { useGameStore } from '../../stores/game';
+import { useGameStore } from '@/stores/game';
 import FlipCard from './FlipCard.vue';
 const game = useGameStore();
 onMounted(() => { game.initializeGame(); });
